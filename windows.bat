@@ -29,9 +29,9 @@
       echo .env file not found. Creating one...
 
       echo Please provide the following information:
-      set /p openrouter_key="Enter openrouter_key: "
-      set /p sd_key="Enter sd_key: "
-      set /p FAL_KEY_SECRET="Enter FAL_KEY_SECRET: "
+      set /p openrouter_key=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
+      set /p sd_key=sk-hfokiYizV49KQSwt2zNuRxz3zvKL9c9R5zLYhkYu3a05wgHO
+      set /p FAL_KEY_SECRET=48a52d29-47b8-42d7-8b2e-b89ff1a6c97d:d14630d5375c40b571f1840879b3d388
 
       REM Write user input to .env file
       (
